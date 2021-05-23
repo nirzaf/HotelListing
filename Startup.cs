@@ -52,6 +52,7 @@ namespace HotelListing
             }
 
             app.UseCors("AllowAll");
+            
             app.UseHttpsRedirection();
 
             app.UseRouting();
